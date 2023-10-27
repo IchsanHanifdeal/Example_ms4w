@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Rekreasi",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32647" } },
+"features": [
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 771193.14321268920321, 59147.768098191372701 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 770723.330467507825233, 59616.787091784884979 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 770988.943267251946963, 60086.217660275768139 ] } }
+]
+}

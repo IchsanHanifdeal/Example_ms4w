@@ -1,64 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
     <title>Sistem Informasi Geografis | Ichsan Hanifdeal</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQqCVzh9CHvZAJrfAoR-mVZD-dZxap2Xo&callback=initGoogleMap" async defer></script>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #db4437">
-        <div class="container">
-            <a class="navbar-brand" href="#">Sistem Informasi Geografis 2</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                    </li>
-                </ul>
-            </div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQqCVzh9CHvZAJrfAoR-mVZD-dZxap2Xo&callback=initGoogleMap"
+      async
+      defer
+    ></script>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="background-color: #db4437"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Sistem Informasi Geografis 2</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
     <div id="map-container">
-        <h1 class="map-title">Menampilkan SHP Menggunakan MS4W dan Google Maps</h1>
-        <div id="google-map" style="height: 800px"></div>
+      <h1 class="map-title">
+        Menampilkan SHP Menggunakan MS4W dan Google Maps
+      </h1>
+      <div id="google-map" style="height: 800px"></div>
     </div>
     <footer class="text-center text-white" style="background-color: #db4437">
-        <div class="text-center p-3" style="background-color: #db4437">
-            &copy; Ichsan Hanifdeal
-        </div>
+      <div class="text-center p-3" style="background-color: #db4437">
+        &copy; Ichsan Hanifdeal
+      </div>
     </footer>
     <script>
-        var googleMap;
+      var googleMap;
 
-        function initGoogleMap() {
-            googleMap = new google.maps.Map(document.getElementById("google-map"), {
-                center: { lat: 0.537488, lng: 101.448387 },
-                zoom: 15,
-            });
+      function initGoogleMap() {
+        googleMap = new google.maps.Map(document.getElementById("google-map"), {
+          center: { lat: 0.537488, lng: 101.448387 },
+          zoom: 15,
+        });
 
-            var hotelMelatiGeoJsonUrl = "http://localhost:81/uts/assets/geojson/Hotel_Melati.geojson";
-            var hotelMelatiLayer = new google.maps.Data({ map: googleMap });
-            hotelMelatiLayer.loadGeoJson(hotelMelatiGeoJsonUrl);
-            hotelMelatiLayer.setStyle({ title: 'Hotel Melati' });
-
-            var saranaPerekonomianGeoJsonUrl = "http://localhost:81/uts/assets/geojson/Sarana_Perekonomian.geojson";
-            var saranaPerekonomianLayer = new google.maps.Data({ map: googleMap });
-            saranaPerekonomianLayer.loadGeoJson(saranaPerekonomianGeoJsonUrl);
-            saranaPerekonomianLayer.setStyle({ title: 'Sarana Perekonomian' });
-
-            var saranaKesehatanGeoJsonUrl = "http://localhost:81/uts/assets/geojson/Sarana_Kesehatan.geojson";
-            var saranaKesehatanLayer = new google.maps.Data({ map: googleMap });
-            saranaKesehatanLayer.loadGeoJson(saranaKesehatanGeoJsonUrl);
-            saranaKesehatanLayer.setStyle({ title: 'Sarana Kesehatan' });
-        }
-    </script>    
-</body>
+        var geojsonFiles = [
+          "assets/geojson/wilayah_kecamatan.geojson",
+          "assets/geojson/Vihara.geojson",
+          "assets/geojson/Surau.geojson",
+          "assets/geojson/Sungai_Kecil.geojson",
+          "assets/geojson/Sungai_Besar.geojson",
+          "assets/geojson/Sklh_Swasta.geojson",
+          "assets/geojson/Sklh_Negeri.geojson",
+          "assets/geojson/Sarana_Perekonomian.geojson",
+          "assets/geojson/Sarana_Kesehatan.geojson",
+          "assets/geojson/Rekreasi.geojson",
+          "assets/geojson/Pura.geojson",
+          "assets/geojson/Masjid.geojson",
+          "assets/geojson/Kantor_Lurah.geojson",
+          "assets/geojson/Jalan_Lingkungan.geojson",
+          "assets/geojson/Jalan_Kolektor.geojson",
+          "assets/geojson/Jalan_Arteri.geojson",
+          "assets/geojson/Hotel_Melati.geojson",
+          "assets/geojson/Hotel_Berbintang.geojson",
+          "assets/geojson/Gereja.geojson",
+          "assets/geojson/Fasilitas_Bermain.geojson",
+        ];
+        geojsonFiles.forEach(function (geojsonFile) {
+          var layer = new google.maps.Data();
+          layer.loadGeoJson(geojsonFile);
+          layer.setMap(googleMap);
+        });
+      }
+    </script>
+  </body>
 </html>

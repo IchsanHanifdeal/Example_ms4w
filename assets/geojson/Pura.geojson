@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Pura",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32647" } },
+"features": [
+
+]
+}
