@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #db4437;
+    color: white;
+    padding: 10px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .navbar-nav {
+    list-style: none;
+    display: flex;
+}
+.navbar .nav-item {
+    margin-right: 20px;
+}
+.map-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.map-container {
+    height: 700px;
+    background-color: #000;
+}
+.footer {
+    background-color: #db4437;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
