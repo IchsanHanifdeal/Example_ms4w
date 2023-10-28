@@ -1,6 +1,6 @@
-# UTS: Menampilkan SHP Senapelan dengan MS4W, HTML, CSS, JS, dan Google Maps API
+# UTS: Menampilkan SHP Senapelan dengan MS4W, HTML, CSS, JS, dan Leaflet
 
-Proyek ini bertujuan untuk menampilkan data geospasial dalam format SHP (Shapefile) dari wilayah Senapelan menggunakan MS4W (MapServer for Windows), HTML, CSS, JavaScript, dan Google Maps API.
+Proyek ini bertujuan untuk menampilkan data geospasial dalam format SHP (Shapefile) dari wilayah Senapelan menggunakan MS4W (MapServer for Windows), HTML, CSS, JavaScript, dan Leaflet.
 
 ## Prasyarat
 
@@ -29,7 +29,7 @@ Sebelum Anda dapat menjalankan proyek ini, pastikan Anda telah menginstal perang
 
 ## Struktur Proyek
 
-- `index.html`: Berkas HTML utama yang mengintegrasikan Google Maps API dan menampilkan peta.
+- `index.html`: Berkas HTML utama yang mengintegrasikan Leaflet dan menampilkan peta.
 
 - `style.css`: Berkas CSS untuk mengatur tampilan peta dan elemen-elemen lainnya.
 
@@ -47,4 +47,4 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
 ---
 
-Semoga proyek ini membantu Anda dalam mengeksplorasi data geospasial dan menampilkan SHP Senapelan menggunakan MS4W, HTML, CSS, JavaScript, dan Google Maps API. Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk menghubungi kami.
+Semoga proyek ini membantu Anda dalam mengeksplorasi data geospasial dan menampilkan SHP Senapelan menggunakan MS4W, HTML, CSS, JavaScript, dan Leaflet. Jika Anda memiliki pertanyaan atau memerlukan bantuan lebih lanjut, jangan ragu untuk menghubungi kami.
