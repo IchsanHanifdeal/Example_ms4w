@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Pasar",
+"features": [
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 3680.892123805831034, -7114.733268029802275 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 3501.707556343345914, -6731.770172864883534 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 5337.031839249533732, -7370.773961242140103 ] } }
+]
+}

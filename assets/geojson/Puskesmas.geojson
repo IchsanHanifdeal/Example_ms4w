@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Puskesmas",
+"features": [
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 3501.268378481920536, -5776.558324259735855 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 3334.380791139410121, -6277.221086287267099 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 5499.527647977768538, -5763.38298841690721 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 5701.549464234492007, -6307.963536587204544 ] } }
+]
+}

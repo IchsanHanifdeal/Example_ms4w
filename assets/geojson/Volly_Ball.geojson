@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Volly_Ball",
+"features": [
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 3679.684384686904195, -5783.694964507935765 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 3844.376082722276351, -5262.171254062590378 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 4327.471730292701068, -6025.242788293147896 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 2828.777278170815862, -7073.779932451682726 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 4766.649591720360149, -7161.615504737214906 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 4914.872119952195135, -7880.769252825006333 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 6940.580005787274786, -5915.448322936234035 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 5332.091088308473445, -6129.547530382217701 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 3278.934586134167148, -7952.135655307002708 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 5035.646031844803474, -5602.534096669026439 ] } }
+]
+}

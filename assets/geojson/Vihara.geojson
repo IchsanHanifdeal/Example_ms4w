@@ -1,9 +1,8 @@
 {
 "type": "FeatureCollection",
 "name": "Vihara",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32647" } },
 "features": [
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 771967.619865809334442, 59190.887183272046968 ] } },
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 772012.951900917687453, 59412.079292322938272 ] } }
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 6150.828416474987534, -5976.384251209312424 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 6052.926775912366793, -6361.659279208710359 ] } }
 ]
 }

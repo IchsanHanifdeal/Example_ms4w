@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Puskesmas_Pembantu",
+"features": [
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 5223.284773139767822, -7553.9111294574559 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 6287.85190924041126, -5365.048668102006559 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 3259.281376835278024, -5582.880887370126402 ] } }
+]
+}

@@ -1,13 +1,12 @@
 {
 "type": "FeatureCollection",
 "name": "Kantor_Lurah",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32647" } },
 "features": [
-{ "type": "Feature", "properties": { "Id": 0, "Kantor_Lur": "Padang Bulan", "Lurah": 1, "RW": 10, "RT": 39 }, "geometry": { "type": "Point", "coordinates": [ 771362.122317206114531, 58383.185485279616842 ] } },
-{ "type": "Feature", "properties": { "Id": 0, "Kantor_Lur": "Padang Terubuk", "Lurah": 1, "RW": 6, "RT": 27 }, "geometry": { "type": "Point", "coordinates": [ 770924.518247553729452, 58992.892538027059345 ] } },
-{ "type": "Feature", "properties": { "Id": 0, "Kantor_Lur": "Sago", "Lurah": 1, "RW": 5, "RT": 18 }, "geometry": { "type": "Point", "coordinates": [ 772073.941101955249906, 59038.030544969740731 ] } },
-{ "type": "Feature", "properties": { "Id": 0, "Kantor_Lur": "Kampung Dalam", "Lurah": 1, "RW": 5, "RT": 18 }, "geometry": { "type": "Point", "coordinates": [ 772360.667693926952779, 59661.243133987416513 ] } },
-{ "type": "Feature", "properties": { "Id": 0, "Kantor_Lur": "Kampung Bandar", "Lurah": 1, "RW": 8, "RT": 30 }, "geometry": { "type": "Point", "coordinates": [ 771289.610169867286459, 59744.645847089130257 ] } },
-{ "type": "Feature", "properties": { "Id": 0, "Kantor_Lur": "Kampung Baru", "Lurah": 1, "RW": 8, "RT": 22 }, "geometry": { "type": "Point", "coordinates": [ 771092.406997682992369, 59570.37327632177039 ] } }
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 4592.80105269266096, -7989.093773703240913 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 3517.914877226557564, -6785.805916488396178 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 6341.394600792229539, -6697.378500180037008 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 3927.056047473786293, -5651.917244877942721 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 4419.325195215983513, -5305.248565803429301 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 7050.670296022914954, -5475.33043488083058 ] } }
 ]
 }

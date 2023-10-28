@@ -1,17 +1,16 @@
 {
 "type": "FeatureCollection",
 "name": "Hotel_Melati",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32647" } },
 "features": [
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 770616.27689691958949, 59872.948367996235902 ] } },
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 771432.077139631146565, 59439.912779702870466 ] } },
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 771761.043075340799987, 59448.732241786237864 ] } },
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 772265.29581995762419, 59233.449172331107548 ] } },
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 772162.108113582246006, 59245.796419247824815 ] } },
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 772397.587751208222471, 59076.462747247132938 ] } },
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 772187.68455362401437, 59102.921133497242408 ] } },
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 771524.108226471347734, 58823.520574695896357 ] } },
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 771147.340806269668974, 58899.720727096231712 ] } },
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 771316.674478270462714, 59067.99606364696956 ] } }
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 7169.355712890624091, -6693.122521059251085 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 6618.113661034016332, -6633.39433190508953 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 6589.804490938150593, -6352.971731514330713 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 6741.427022490662239, -6351.582590783564228 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 5553.546524933371074, -5955.303713860784228 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 4731.405568340794161, -5909.62921627230844 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 4447.095777844269833, -6668.198470601108966 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 4871.942483997645468, -7128.786959595488952 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 4011.185069407225456, -7037.958134390013583 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 2707.923310746573407, -5086.51279699026054 ] } }
 ]
 }

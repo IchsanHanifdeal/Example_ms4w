@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Pos_Kb",
+"features": [
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 5328.687459882403346, -7539.857437891772861 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 3030.908888892894083, -7427.42790536629218 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 6354.606944177413425, -6612.313794556557696 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 4882.482752671902745, -5062.894299439779388 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 3607.110243085982802, -5600.448001827231565 ] } }
+]
+}

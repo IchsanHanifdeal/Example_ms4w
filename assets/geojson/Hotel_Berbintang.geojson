@@ -1,10 +1,9 @@
 {
 "type": "FeatureCollection",
 "name": "Hotel_Berbintang",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32647" } },
 "features": [
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 772397.146778103662655, 59304.019568101648474 ] } },
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 772397.146778103662655, 59172.609583059464057 ] } },
-{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 771188.659986130194739, 59606.600613078524475 ] } }
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 7127.559980290097883, -6141.515127106109503 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 7138.100299789487508, -6382.986830039189044 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 4202.751833431659179, -5571.394208109447391 ] } }
 ]
 }

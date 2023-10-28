@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "Bioskop",
+"features": [
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 2976.999806402651302, -5553.126587258414474 ] } }
+]
+}

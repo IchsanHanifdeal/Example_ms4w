@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Kolam_Renang",
+"features": [
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 2263.6905517578125, -5330.04486083984375 ] } },
+{ "type": "Feature", "properties": { "Id": 0 }, "geometry": { "type": "Point", "coordinates": [ 4190.228648596557832, -6425.992586845886763 ] } }
+]
+}
