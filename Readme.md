@@ -8,8 +8,6 @@ Sebelum Anda dapat menjalankan proyek ini, pastikan Anda telah menginstal perang
 
 - **MS4W (MapServer for Windows)**: MS4W adalah lingkungan pengembangan untuk peta web yang berjalan di platform Windows. Anda dapat mengunduhnya [di sini](https://ms4w.com/).
 
-- **Kunci API Google Maps**: Anda memerlukan kunci API Google Maps yang valid. Dapatkan kunci API Anda [di sini](https://developers.google.com/maps/gmp-get-started).
-
 ## Cara Menggunakan Proyek
 
 1. **Unduh Proyek**: Unduh proyek ini ke komputer Anda atau kloning repositori ini menggunakan Git.
@@ -18,13 +16,10 @@ Sebelum Anda dapat menjalankan proyek ini, pastikan Anda telah menginstal perang
    - Instal MS4W dan ikuti instruksi yang diberikan di situs web MS4W.
    - Letakkan data SHP Senapelan Anda di direktori proyek.
 
-3. **Konfigurasi Kunci API Google Maps**:
-   - Gantilah `'YOUR_API_KEY'` di berkas HTML (`index.html`) dengan kunci API Google Maps yang Anda dapatkan.
-
-4. **Memastikan Data SHP yang Benar**:
+3. **Memastikan Data SHP yang Benar**:
    - Pastikan data SHP Anda sesuai dengan wilayah Senapelan dan sesuai dengan konfigurasi lapisan peta dalam berkas proyek.
 
-5. **Menjalankan Aplikasi**:
+4. **Menjalankan Aplikasi**:
    - Buka berkas `index.html` menggunakan peramban web Anda.
 
 ## Struktur Proyek
@@ -33,9 +28,7 @@ Sebelum Anda dapat menjalankan proyek ini, pastikan Anda telah menginstal perang
 
 - `style.css`: Berkas CSS untuk mengatur tampilan peta dan elemen-elemen lainnya.
 
-- `javascript.js`: Berkas JavaScript yang mengatur logika aplikasi, termasuk pengaturan peta dan lapisan.
-
-- `shp/`: Direktori tempat Anda menyimpan berkas-berkas SHP terkait dengan wilayah Senapelan.
+- `maps/`: Direktori tempat Anda menyimpan berkas-berkas SHP terkait dengan wilayah Senapelan.
 
 ## Kontribusi
 
